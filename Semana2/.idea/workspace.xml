@@ -12,11 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0d34e74-2d91-4e9f-980c-f6994f9d4ba2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana1/cmake-build-debug/file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Matriz/matrix.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Matriz/matrix.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teste/file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1623368823115</updated>
-      <workItem from="1623368824917" duration="692000" />
+      <workItem from="1623368824917" duration="3459000" />
     </task>
     <servers />
   </component>
