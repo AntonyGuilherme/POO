@@ -14,7 +14,7 @@ private:
 
     double** m; // m é um array 2D a ser implementado como um pointer de pointers
     int nRows;  // numero de linhas
-    int nCols;  //  numero de colunas
+    int nCols;  // numero de colunas
 
 public:
 
@@ -31,7 +31,6 @@ public:
     // other methods
     Matrix transpose();
     void print() const;
-
 
 };
 
