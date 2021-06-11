@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/word2/Documents/GitHub/POO/Semana2/Matriz/matrix.cpp
+matrix.h
+C:/Users/word2/Documents/GitHub/POO/Semana2/Matriz/matrix.h
+
+C:/Users/word2/Documents/GitHub/POO/Semana2/Matriz/matrix.h
+iostream
+-
+

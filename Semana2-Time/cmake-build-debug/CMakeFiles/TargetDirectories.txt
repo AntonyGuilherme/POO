@@ -1,0 +1,3 @@
+C:/Users/word2/Documents/GitHub/POO/Semana2-Time/cmake-build-debug/CMakeFiles/Semana2_Time.dir
+C:/Users/word2/Documents/GitHub/POO/Semana2-Time/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/word2/Documents/GitHub/POO/Semana2-Time/cmake-build-debug/CMakeFiles/rebuild_cache.dir

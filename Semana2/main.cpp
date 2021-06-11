@@ -4,8 +4,8 @@
 
 int main()
 {
-    Matrix Y(3,2);
-    Matrix X(4,1);
+    Matrix Y(3,2,0);
+    Matrix X(4,1,0);
 
     std::cout << "Y:: " << std::endl;
     Y.print();
