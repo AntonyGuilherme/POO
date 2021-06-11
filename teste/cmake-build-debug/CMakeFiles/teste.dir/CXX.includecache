@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/word2/Documents/GitHub/POO/teste/main.cpp
+iostream
+-
+fstream
+C:/Users/word2/Documents/GitHub/POO/teste/fstream
+string
+C:/Users/word2/Documents/GitHub/POO/teste/string
+
