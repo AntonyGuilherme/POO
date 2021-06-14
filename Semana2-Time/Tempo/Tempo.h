@@ -5,28 +5,25 @@
 #ifndef SEMANA2_TIME_TEMPO_H
 #define SEMANA2_TIME_TEMPO_H
 
+#include <iostream>
+#include "string.h"
+
 class Tempo {
 
-
-private :
     int days , hours , minutes , seconds;
     void verify_consistency();
-    void modify_seconds();
-    void add_seconds(int _seconds);
-    void add_minutes(int _minutes);
-    void add_hours(int _hours);
-    void add_days(int _days);
+    void modify_seconds(int _seconds);
+    void modify_minutes(int _minutes);
+    void modify_hours(int _hours);
+    void modify_days(int _days);
+    long int get_total_time();
 
 public :
 
-    Tempo(int _days , int _hours , int _minutes , int _seconds);
-    Tempo(int _days , int _hours , int _minutes);
-    Tempo(int _days , int _hours);
-    Tempo(int _days);
-    Tempo();
+    Tempo(int _days = 0 , int _hours = 0 , int _minutes = 0 , int _seconds = 0);
 
     void add(Tempo* _tempo);
-    void read_data();
+    static Tempo * read_data();
     void write_data();
 
     void increment();

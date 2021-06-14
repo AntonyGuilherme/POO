@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/word2/Documents/GitHub/POO/Semana2-Time/Tempo/Tempo.h
+iostream
+-
+string.h
+C:/Users/word2/Documents/GitHub/POO/Semana2-Time/Tempo/string.h
+
+C:/Users/word2/Documents/GitHub/POO/Semana2-Time/main.cpp
+iostream
+-
+Tempo/Tempo.h
+C:/Users/word2/Documents/GitHub/POO/Semana2-Time/Tempo/Tempo.h
+
