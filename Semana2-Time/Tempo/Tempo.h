@@ -10,24 +10,25 @@
 
 class Tempo {
 
-    int days , hours , minutes , seconds;
-    void verify_consistency();
-    void modify_seconds(int _seconds);
-    void modify_minutes(int _minutes);
-    void modify_hours(int _hours);
-    void modify_days(int _days);
+    int days , hours , minutes , seconds;  //variáveis do objeto tempo
+    void verify_consistency();  //função para verificar se as variáveis ultrapassam os limites de horas (24), minutos (60) e segundos (60)
+    void modify_seconds(int _seconds);  // 
+    void modify_minutes(int _minutes);  // Funções que reajustam as variáveis, se houver inconsistência 
+    void modify_hours(int _hours);      //
+    void modify_days(int _days);        //
     long int get_total_time();
 
 public :
 
+    //Construtor com argumentos default
     Tempo(int _days = 0 , int _hours = 0 , int _minutes = 0 , int _seconds = 0);
 
-    void add(Tempo* _tempo);
-    static Tempo * read_data();
-    void write_data();
+    void add(Tempo* _tempo);   //Função para somar dois objetos tempo
+    static Tempo * read_data();  //Função para ler variáveis do teclado
+    void write_data();       //Função para printar variáveis na tela
 
-    void increment();
-    void decrement();
+    void increment();  //Incrementar 1 ou mais segundos no objeto
+    void decrement();  //Decrementar 1 ou mais segundos do objeto
 
     int get_seconds() const;
     int get_minutes() const;
