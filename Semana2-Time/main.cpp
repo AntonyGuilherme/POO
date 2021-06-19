@@ -7,7 +7,7 @@ int main() {
 
     std :: cout << "PROGRAMA TESTE" << std :: endl;
     
-    Tempo * tempo1 = new Tempo ();                  //Criar objeto "tempo1" e ler seus parâmetros no teclado
+    Tempo * tempo1 = Tempo :: read_data();                  //Criar objeto "tempo1" e ler seus parâmetros no teclado
     tempo1->write_data();                           //Printar objeto "tempo1" na tela
 
     for(int i = 0 ; i < 90065 ; i++)                //Incrementar 1 em 1 segundo ao objeto "tempo1"

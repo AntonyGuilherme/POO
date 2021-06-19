@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Semana2" targetName="Semana2" />
+      <config projectName="Semana3" targetName="Semana3" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0d34e74-2d91-4e9f-980c-f6994f9d4ba2" name="Default Changelist" comment="">
+    <list default="true" id="d64fcf81-7cb1-496a-80d0-1f1345b6879b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Ponto2D/Ponto2D.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ponto2D/Ponto2D.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Semana2-Time/Tempo/Tempo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana2-Time/Tempo/Tempo.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Semana2-Time/cmake-build-debug/CMakeFiles/Semana2_Time.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana2-Time/cmake-build-debug/CMakeFiles/Semana2_Time.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Semana2-Time/cmake-build-debug/CMakeFiles/Semana2_Time.dir/Tempo/Tempo.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana2-Time/cmake-build-debug/CMakeFiles/Semana2_Time.dir/Tempo/Tempo.cpp.obj" afterDir="false" />
@@ -20,11 +22,11 @@
       <change beforePath="$PROJECT_DIR$/../Semana2-Time/cmake-build-debug/Semana2_Time.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana2-Time/cmake-build-debug/Semana2_Time.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Semana2-Time/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana2-Time/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Semana2-Time/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana2-Time/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Matriz/matrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Matriz/matrix.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Semana2.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Semana2.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Semana2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Semana2.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana2/Matriz/matrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana2/Matriz/matrix.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana2/cmake-build-debug/CMakeFiles/Semana2.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana2/cmake-build-debug/CMakeFiles/Semana2.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana2/cmake-build-debug/Semana2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana2/cmake-build-debug/Semana2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana2/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana2/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +40,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1tmKSJBUPSQ3ofrmRUiHc89QPgz" />
+  <component name="ProjectId" id="1u984b8d44xwhO1ZFNQ0WtLos0Z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -52,10 +54,14 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
-    <configuration name="Semana2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Semana2" TARGET_NAME="Semana2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Semana2" RUN_TARGET_NAME="Semana2">
+    <configuration name="Semana3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Semana3" TARGET_NAME="Semana3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Semana3" RUN_TARGET_NAME="Semana3">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -64,18 +70,14 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b0d34e74-2d91-4e9f-980c-f6994f9d4ba2" name="Default Changelist" comment="" />
-      <created>1623368823115</created>
+      <changelist id="d64fcf81-7cb1-496a-80d0-1f1345b6879b" name="Default Changelist" comment="" />
+      <created>1624066253654</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1623368823115</updated>
-      <workItem from="1623368824917" duration="692000" />
-      <workItem from="1623370840043" duration="3454000" />
-      <workItem from="1623378423163" duration="638000" />
-      <workItem from="1623625243498" duration="19000" />
-      <workItem from="1623625666760" duration="237000" />
-      <workItem from="1623711078776" duration="978000" />
-      <workItem from="1624060672479" duration="173000" />
+      <updated>1624066253654</updated>
+      <workItem from="1624066257122" duration="1908000" />
+      <workItem from="1624068397481" duration="1423000" />
+      <workItem from="1624111623589" duration="2591000" />
     </task>
     <servers />
   </component>
