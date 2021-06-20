@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/word2/Documents/GitHub/POO/Semana3/Ponto2D/Ponto2D.cpp" "C:/Users/word2/Documents/GitHub/POO/Semana3/cmake-build-debug/CMakeFiles/Semana3.dir/Ponto2D/Ponto2D.cpp.obj"
-  "C:/Users/word2/Documents/GitHub/POO/Semana3/main.cpp" "C:/Users/word2/Documents/GitHub/POO/Semana3/cmake-build-debug/CMakeFiles/Semana3.dir/main.cpp.obj"
+  "C:/Users/Gabriel/Documents/GitHub/POO/Semana3/Ponto2D/Ponto2D.cpp" "C:/Users/Gabriel/Documents/GitHub/POO/Semana3/cmake-build-debug/CMakeFiles/Semana3.dir/Ponto2D/Ponto2D.cpp.obj"
+  "C:/Users/Gabriel/Documents/GitHub/POO/Semana3/main.cpp" "C:/Users/Gabriel/Documents/GitHub/POO/Semana3/cmake-build-debug/CMakeFiles/Semana3.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
