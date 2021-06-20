@@ -12,21 +12,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d64fcf81-7cb1-496a-80d0-1f1345b6879b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Ponto2D/Ponto2D.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ponto2D/Ponto2D.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Semana2-Time/Tempo/Tempo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana2-Time/Tempo/Tempo.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Semana2-Time/cmake-build-debug/CMakeFiles/Semana2_Time.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana2-Time/cmake-build-debug/CMakeFiles/Semana2_Time.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Semana2-Time/cmake-build-debug/CMakeFiles/Semana2_Time.dir/Tempo/Tempo.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana2-Time/cmake-build-debug/CMakeFiles/Semana2_Time.dir/Tempo/Tempo.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Semana2-Time/cmake-build-debug/CMakeFiles/Semana2_Time.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana2-Time/cmake-build-debug/CMakeFiles/Semana2_Time.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Semana2-Time/cmake-build-debug/CMakeFiles/Semana2_Time.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana2-Time/cmake-build-debug/CMakeFiles/Semana2_Time.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Semana2-Time/cmake-build-debug/Semana2_Time.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana2-Time/cmake-build-debug/Semana2_Time.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana1/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana1/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Semana2-Time/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana2-Time/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Semana2-Time/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana2-Time/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Semana2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Semana2/Matriz/matrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana2/Matriz/matrix.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Semana2/cmake-build-debug/CMakeFiles/Semana2.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana2/cmake-build-debug/CMakeFiles/Semana2.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Semana2/cmake-build-debug/Semana2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana2/cmake-build-debug/Semana2.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Semana2/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana2/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ponto2D/Ponto2D.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Ponto2D/Ponto2D.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ponto2D/Ponto2D.h" beforeDir="false" afterPath="$PROJECT_DIR$/Ponto2D/Ponto2D.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Semana3.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Semana3.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Semana3.dir/Ponto2D/Ponto2D.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Semana3.dir/Ponto2D/Ponto2D.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Semana3.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Semana3.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Semana3.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Semana3.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Semana3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Semana3.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teste/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../teste/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teste/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../teste/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teste/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../teste/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +56,7 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Semana3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Semana3" TARGET_NAME="Semana3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Semana3" RUN_TARGET_NAME="Semana3">
@@ -61,9 +64,9 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -77,7 +80,10 @@
       <updated>1624066253654</updated>
       <workItem from="1624066257122" duration="1908000" />
       <workItem from="1624068397481" duration="1423000" />
-      <workItem from="1624111623589" duration="2591000" />
+      <workItem from="1624111623589" duration="2668000" />
+      <workItem from="1624216912279" duration="2421000" />
+      <workItem from="1624219398488" duration="602000" />
+      <workItem from="1624220084497" duration="3775000" />
     </task>
     <servers />
   </component>

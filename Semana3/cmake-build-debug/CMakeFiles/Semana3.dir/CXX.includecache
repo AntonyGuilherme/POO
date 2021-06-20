@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/word2/Documents/GitHub/POO/Semana3/Ponto2D/Ponto2D.cpp
+Ponto2D.h
+C:/Users/word2/Documents/GitHub/POO/Semana3/Ponto2D/Ponto2D.h
+string
+C:/Users/word2/Documents/GitHub/POO/Semana3/Ponto2D/string
+
 C:/Users/word2/Documents/GitHub/POO/Semana3/Ponto2D/Ponto2D.h
 iostream
 C:/Users/word2/Documents/GitHub/POO/Semana3/Ponto2D/iostream
 vector
 C:/Users/word2/Documents/GitHub/POO/Semana3/Ponto2D/vector
-
-C:/Users/word2/Documents/GitHub/POO/Semana3/main.cpp
-iostream
--
-cstdlib
--
-Ponto2D/Ponto2D.h
-C:/Users/word2/Documents/GitHub/POO/Semana3/Ponto2D/Ponto2D.h
+math.h
+C:/Users/word2/Documents/GitHub/POO/Semana3/Ponto2D/math.h
 

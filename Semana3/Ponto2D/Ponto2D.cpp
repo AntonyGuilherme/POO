@@ -22,6 +22,7 @@ int Ponto2D::getNextId() {
     for(auto id : (* Ponto2D :: ids))
         if(id == rand_number) return Ponto2D::getNextId();
 
+    Ponto2D :: ids ->push_back(rand_number);
 
     return rand_number;
 }
@@ -39,17 +40,13 @@ double Ponto2D::calc_dist_coordinates(const double &dx, const double &dy) {
     return (double) (std ::sqrt(_dx_2 + _dy_2));
 }
 
-inline void Ponto2D::set_id(const int &_id) {this->id = _id;}
-
-inline Ponto2D::Ponto2D() : Ponto2D(0,0) {}
-
-inline Ponto2D::Ponto2D(const double &_x, const double &_y) : x(_x) , y(_y) { this->set_id(this->getNextId());}
+inline Ponto2D::Ponto2D(const double &_x, const double &_y) : x(_x) , y(_y) , id(this->getNextId()) {}
 
 inline double Ponto2D::get_x() const { return this->x;}
 
 inline double Ponto2D::get_y() const { return this->y; }
 
-inline double Ponto2D::get_id() const { return this->id; }
+int Ponto2D::get_id() const { return this->id; }
 
 inline  void Ponto2D::set_x(const double &_x) { this->x = _x ;}
 
@@ -61,13 +58,13 @@ void Ponto2D::print() const {
 
 double Ponto2D::distToOrig(const Ponto2D &_p2) const {
 
-    const double dx = _p2.get_x() - this->get_y();
+    const double dx = _p2.get_x() - this->get_x();
     const double dy = _p2.get_y() - this->get_y();
 
-    return this->calc_dist_coordinates(dx,dy);
+    return Ponto2D::calc_dist_coordinates(dx,dy);
 }
 
-inline double Ponto2D::distToOrig() const { return this->calc_dist_coordinates(this->get_x(),this->get_y());}
+double Ponto2D::distToOrig() const { return Ponto2D::calc_dist_coordinates(this->get_x(),this->get_y());}
 
 void Ponto2D::sumOf(const Ponto2D &_p2) {
     /*
@@ -84,6 +81,14 @@ Ponto2D Ponto2D::sumToNewPoint(const Ponto2D &_p2) const {
     const double new_y = this->get_y() + _p2.get_y();
 
     return (* new Ponto2D(new_x,new_y));
+}
+
+Ponto2D::~Ponto2D() {
+
+    for(int i =0 ; i < Ponto2D :: ids->size() ; i++)
+        if(Ponto2D :: ids ->at(i) == this->id)
+            Ponto2D :: ids->erase(Ponto2D::ids->begin()+i);
+
 }
 
 
