@@ -30,12 +30,13 @@ int main() {
 
     ponto2->sumOf(ponto3);
 
-    std :: cout << std :: endl << "Ponto 2 agora e: ";
+    std :: cout << "Ponto 2 agora e: ";
     ponto2->print();
 
     std :: cout << std :: endl << "ID Ponto 1, Ponto 2 e Ponto 3: ";
     std ::  cout << " " << ponto1->get_id() << " " << ponto2 -> get_id() << " " << ponto3.get_id() << std :: endl;
 
+    std :: cout << "A distancia do ponto 2 ate a origem e: ";
     std :: cout << ponto2->distToOrig(ponto3) ;
 
     delete ponto1;
