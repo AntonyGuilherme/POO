@@ -12,9 +12,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0d34e74-2d91-4e9f-980c-f6994f9d4ba2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Semana2-Time/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana2-Time/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana1/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana1/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana3/Ponto2D/Ponto2D.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana3/Ponto2D/Ponto2D.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana3/Ponto2D/Ponto2D.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana3/Ponto2D/Ponto2D.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana3/cmake-build-debug/CMakeFiles/Semana3.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana3/cmake-build-debug/CMakeFiles/Semana3.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana3/cmake-build-debug/CMakeFiles/Semana3.dir/Ponto2D/Ponto2D.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana3/cmake-build-debug/CMakeFiles/Semana3.dir/Ponto2D/Ponto2D.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana3/cmake-build-debug/CMakeFiles/Semana3.dir/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana3/cmake-build-debug/CMakeFiles/Semana3.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana3/cmake-build-debug/CMakeFiles/Semana3.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana3/cmake-build-debug/Semana3.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana3/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana3/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana3/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana3/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teste/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../teste/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teste/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../teste/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teste/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../teste/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +62,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -69,6 +76,9 @@
       <workItem from="1623378423163" duration="638000" />
       <workItem from="1623625243498" duration="19000" />
       <workItem from="1623625666760" duration="237000" />
+      <workItem from="1623711078776" duration="978000" />
+      <workItem from="1624060672479" duration="173000" />
+      <workItem from="1624220008628" duration="51000" />
     </task>
     <servers />
   </component>

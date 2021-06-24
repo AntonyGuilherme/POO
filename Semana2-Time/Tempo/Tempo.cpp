@@ -54,28 +54,28 @@ Tempo * Tempo::read_data() {
     std :: cin >> code ;
 
     if(code != 'X' && code != 'D' && code != 'H' && code != 'M' && code != 'S')
-        throw " Codigo invalido! ";
+        throw "Codigo invalido!";
 
     if(code == 'X')  return new Tempo();
 
     int days , hours , minutes , seconds;
 
-    std :: cout << " Número de dias : ";
+    std :: cout << "Número de dias : ";
     std :: cin >> days ;
 
     if(code == 'D')  return new Tempo(days);
 
-    std:: cout << " Número de horas : ";
+    std:: cout << "Número de horas : ";
     std :: cin >> hours;
 
     if(code == 'H')  return new Tempo(days,hours);
 
-    std:: cout << " Número de minutos : ";
+    std:: cout << "Número de minutos : ";
     std :: cin >> minutes;
 
     if(code == 'M')  return new Tempo(days,hours,minutes);
 
-    std:: cout << " Número de segundos : ";
+    std:: cout << "Número de segundos : ";
     std :: cin >> seconds;
 
     if(code == 'S')  return new Tempo(days,hours,minutes,seconds);
@@ -109,7 +109,7 @@ int Tempo::get_days() const {
 void Tempo::modify_seconds(int _seconds) {
 
     //Verificando se há tempo suficiente para ser subtraído
-    if(_seconds > this->get_total_time()) throw "Não há tempo suficiente para ser subtraído.";
+    if(( (-1) * _seconds) > this->get_total_time()) throw "Não há tempo suficiente para ser subtraído.";
 
     //Verificar se deve ser incrementado ou decrementado
     //Se for igual ou mair que 0 realiza-se o incremento

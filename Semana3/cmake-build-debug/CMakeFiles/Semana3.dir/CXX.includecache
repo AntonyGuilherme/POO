@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Gabriel/Documents/GitHub/POO/Semana3/Ponto2D/Ponto2D.h
+iostream
+C:/Users/Gabriel/Documents/GitHub/POO/Semana3/Ponto2D/iostream
+vector
+C:/Users/Gabriel/Documents/GitHub/POO/Semana3/Ponto2D/vector
+math.h
+C:/Users/Gabriel/Documents/GitHub/POO/Semana3/Ponto2D/math.h
+
+C:/Users/Gabriel/Documents/GitHub/POO/Semana3/main.cpp
+iostream
+-
+Ponto2D/Ponto2D.h
+C:/Users/Gabriel/Documents/GitHub/POO/Semana3/Ponto2D/Ponto2D.h
+
