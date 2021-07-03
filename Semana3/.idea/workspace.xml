@@ -11,7 +11,20 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d64fcf81-7cb1-496a-80d0-1f1345b6879b" name="Default Changelist" comment="Fix file's modification" />
+    <list default="true" id="d64fcf81-7cb1-496a-80d0-1f1345b6879b" name="Default Changelist" comment="Fix file's modification">
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana4/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana4/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana5-Matrix/Matrix/Matrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana5-Matrix/Matrix/Matrix.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana5-Matrix/Matrix/Matrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana5-Matrix/Matrix/Matrix.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana5-Matrix/cmake-build-debug/CMakeFiles/Semana5_Matrix.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana5-Matrix/cmake-build-debug/CMakeFiles/Semana5_Matrix.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana5-Matrix/cmake-build-debug/CMakeFiles/Semana5_Matrix.dir/Matrix/Matrix.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana5-Matrix/cmake-build-debug/CMakeFiles/Semana5_Matrix.dir/Matrix/Matrix.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana5-Matrix/cmake-build-debug/CMakeFiles/Semana5_Matrix.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana5-Matrix/cmake-build-debug/CMakeFiles/Semana5_Matrix.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana5-Matrix/cmake-build-debug/CMakeFiles/Semana5_Matrix.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana5-Matrix/cmake-build-debug/CMakeFiles/Semana5_Matrix.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana5-Matrix/cmake-build-debug/Semana5_Matrix.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana5-Matrix/cmake-build-debug/Semana5_Matrix.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana5-Matrix/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana5-Matrix/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana5-Matrix/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana5-Matrix/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana5-Ponto/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana5-Ponto/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,14 +60,9 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Ponto2D/Ponto2D.h" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Semana2" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Semana3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Semana3" TARGET_NAME="Semana3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Semana3" RUN_TARGET_NAME="Semana3">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -81,6 +89,7 @@
       <workItem from="1624219398488" duration="602000" />
       <workItem from="1624220084497" duration="3775000" />
       <workItem from="1624226559450" duration="1481000" />
+      <workItem from="1625347148318" duration="114000" />
     </task>
     <task id="LOCAL-00001" summary="Implementação dos tetes">
       <created>1624228092541</created>

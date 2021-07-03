@@ -3,7 +3,7 @@
 #include "Matrix/Matrix.h"
 
 int main() {
-    //ifstream in("myMatrix.txt");
+    std::ifstream in("myMatrix.txt");
     Matrix Y;
     Matrix X(3,1,5), A(3,3), C(3,3);
     Matrix Z(3,2,7.0);
@@ -49,10 +49,22 @@ int main() {
     T *= X;
     T.print();
 
-   // if (A == C)                                 // verifica a igualdade entre A e C
-       // if(X != Y)                                  // verifica a desigualdade entre A e C
-            //cout << Z << endl;                        // impressão de matrizes
-    //std::cin >> W                                        // leitura de dados para dentro da matriz Y
+
+
+    // verifica a igualdade entre A e C
+    A = C;
+    if (A == C)
+        // verifica a desigualdade entre A e C
+        if(X != Y)
+            // impressão de matrizes
+            std::cout << Z << std::endl;
+
+    Matrix W;
+
+    // leitura de dados para dentro da matriz Y
+    std :: cin >> W ;
+
+    std :: cout << W;
 
     return 0;
 }

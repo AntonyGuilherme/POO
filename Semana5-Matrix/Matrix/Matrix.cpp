@@ -175,7 +175,6 @@ double &Matrix::operator()(int x, int y) const {
     return this->m[x][y];
 }
 
-
 Matrix& Matrix::operator+(const Matrix & _matrixAdd) const{
 
     Matrix * matrix = new Matrix(this->getRows() , this->getCols());
@@ -269,6 +268,63 @@ void Matrix::operator*=(const Matrix & _matrix) {
     }
 
     *this = *matrix;
+}
+
+bool Matrix::operator==(const Matrix & _matrix) const {
+
+    if(this->getCols() != _matrix.getCols() || this->getRows() != _matrix.getRows())
+        return false;
+
+    for(int i = 0 ; i < this->getRows() ; i++)
+        for(int j = 0 ; j< this->getCols() ; j++)
+            if(this->get(i,j) != _matrix.get(i,j))
+                return false;
+
+    return true;
+}
+
+bool Matrix::operator!=(const Matrix & _matrix) const {
+    if(this->getCols() != _matrix.getCols() || this->getRows() != _matrix.getRows())
+        return true;
+
+    for(int i = 0 ; i < this->getRows() ; i++)
+        for(int j = 0 ; j< this->getCols() ; j++)
+            if(this->get(i,j) != _matrix.get(i,j))
+                return true;
+
+    return false;
+}
+
+std::istream &operator>>(std::istream & op, Matrix & _matrix) {
+
+    std :: cout << "Column's Number"<< std :: endl;
+    int _column , _row ;
+    op >> _column;
+    std :: cout << "Row's Number"<< std :: endl;
+    op >> _row;
+    std :: cout << "Matrix's Data"<< std :: endl;
+
+    _matrix = * new Matrix(_row,_column);
+
+    for(int i = 0 ; i<_row;i++)
+        for(int j=0 ; j< _column;j++)
+            op >> _matrix.m[i][j];
+
+    return op;
+}
+
+std::ostream &operator<<(std::ostream& op, const Matrix & _matrix) {
+
+    for (int i = 0; i < _matrix.getRows(); i++) {
+        op << std::endl;
+
+        for (int j = 0; j < _matrix.getCols(); j++) {
+            op << _matrix.m[i][j] << " ";
+        }
+    }
+
+
+    return op;
 }
 
 

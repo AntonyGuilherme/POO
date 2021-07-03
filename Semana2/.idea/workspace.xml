@@ -12,21 +12,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0d34e74-2d91-4e9f-980c-f6994f9d4ba2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Semana1/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana1/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Semana3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Semana3/Ponto2D/Ponto2D.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana3/Ponto2D/Ponto2D.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Semana3/Ponto2D/Ponto2D.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana3/Ponto2D/Ponto2D.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Semana3/cmake-build-debug/CMakeFiles/Semana3.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana3/cmake-build-debug/CMakeFiles/Semana3.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Semana3/cmake-build-debug/CMakeFiles/Semana3.dir/Ponto2D/Ponto2D.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana3/cmake-build-debug/CMakeFiles/Semana3.dir/Ponto2D/Ponto2D.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Semana3/cmake-build-debug/CMakeFiles/Semana3.dir/main.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Semana3/cmake-build-debug/CMakeFiles/Semana3.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana3/cmake-build-debug/CMakeFiles/Semana3.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Semana3/cmake-build-debug/Semana3.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Semana3/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana3/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Semana3/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana3/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teste/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../teste/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teste/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../teste/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teste/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../teste/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana4/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana4/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana5-Matrix/Matrix/Matrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana5-Matrix/Matrix/Matrix.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana5-Matrix/Matrix/Matrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana5-Matrix/Matrix/Matrix.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana5-Matrix/cmake-build-debug/CMakeFiles/Semana5_Matrix.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana5-Matrix/cmake-build-debug/CMakeFiles/Semana5_Matrix.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana5-Matrix/cmake-build-debug/CMakeFiles/Semana5_Matrix.dir/Matrix/Matrix.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana5-Matrix/cmake-build-debug/CMakeFiles/Semana5_Matrix.dir/Matrix/Matrix.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana5-Matrix/cmake-build-debug/CMakeFiles/Semana5_Matrix.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana5-Matrix/cmake-build-debug/CMakeFiles/Semana5_Matrix.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana5-Matrix/cmake-build-debug/CMakeFiles/Semana5_Matrix.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana5-Matrix/cmake-build-debug/CMakeFiles/Semana5_Matrix.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana5-Matrix/cmake-build-debug/Semana5_Matrix.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana5-Matrix/cmake-build-debug/Semana5_Matrix.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana5-Matrix/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana5-Matrix/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana5-Matrix/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana5-Matrix/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Semana5-Ponto/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Semana5-Ponto/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +53,7 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Semana2-Time" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Semana4" />
   </component>
   <component name="RunManager">
     <configuration name="Semana2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Semana2" TARGET_NAME="Semana2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Semana2" RUN_TARGET_NAME="Semana2">
@@ -79,6 +78,7 @@
       <workItem from="1623711078776" duration="978000" />
       <workItem from="1624060672479" duration="173000" />
       <workItem from="1624220008628" duration="51000" />
+      <workItem from="1625347264882" duration="40000" />
     </task>
     <servers />
   </component>

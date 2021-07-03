@@ -6,15 +6,13 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/word2/Documents/GitHub/POO/Semana5-Matrix/Matrix/Matrix.cpp
+Matrix.h
+C:/Users/word2/Documents/GitHub/POO/Semana5-Matrix/Matrix/Matrix.h
+
 C:/Users/word2/Documents/GitHub/POO/Semana5-Matrix/Matrix/Matrix.h
 iostream
 -
 fstream
 -
-
-C:/Users/word2/Documents/GitHub/POO/Semana5-Matrix/main.cpp
-iostream
--
-Matrix/Matrix.h
-C:/Users/word2/Documents/GitHub/POO/Semana5-Matrix/Matrix/Matrix.h
 

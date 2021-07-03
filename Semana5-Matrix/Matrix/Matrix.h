@@ -55,6 +55,10 @@ public:
     void operator *= (int);
     Matrix& operator* (const Matrix&) const;
     void operator *= (const Matrix&);
+    bool operator == (const Matrix&) const;
+    bool operator != (const Matrix&) const;
+    friend std ::istream& operator>>(std::istream&,Matrix&);
+    friend std ::ostream& operator<<(std::ostream&,const Matrix&);
 
 
 
