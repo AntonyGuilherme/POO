@@ -1,0 +1,3 @@
+C:/Users/word2/Documents/GitHub/POO/Semana5-Matrix/cmake-build-debug/CMakeFiles/Semana5_Matrix.dir
+C:/Users/word2/Documents/GitHub/POO/Semana5-Matrix/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/word2/Documents/GitHub/POO/Semana5-Matrix/cmake-build-debug/CMakeFiles/rebuild_cache.dir
