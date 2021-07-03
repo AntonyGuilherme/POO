@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Semana5_Ponto.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\Semana5_Ponto.dir/objects.a @CMakeFiles\Semana5_Ponto.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\Semana5_Ponto.dir/objects.a -Wl,--no-whole-archive -o Semana5_Ponto.exe -Wl,--out-implib,libSemana5_Ponto.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Semana5_Ponto.dir\linklibs.rsp

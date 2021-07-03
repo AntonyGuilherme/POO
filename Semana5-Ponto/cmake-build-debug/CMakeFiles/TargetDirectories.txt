@@ -1,0 +1,3 @@
+C:/Users/word2/Documents/GitHub/POO/Semana5-Ponto/cmake-build-debug/CMakeFiles/Semana5_Ponto.dir
+C:/Users/word2/Documents/GitHub/POO/Semana5-Ponto/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/word2/Documents/GitHub/POO/Semana5-Ponto/cmake-build-debug/CMakeFiles/rebuild_cache.dir
