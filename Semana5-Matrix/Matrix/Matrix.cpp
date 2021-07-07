@@ -176,6 +176,8 @@ void Matrix::memmoryAlloc() {
 *dos operadores
 */
 
+//Altera o valor de uma posição da matriz
+
 double &Matrix::operator()(int x, int y) const {
     return this->m[x][y];
 }
