@@ -6,7 +6,11 @@
 #include "string"
 
 std :: vector<int> * Ponto2D :: ids = new std::vector<int>;
+
+//Mensagem de erro caso o ID não estiver dispoível (tiver todos os 1000 IDs ocupados)
 const std :: string EX_IDS_UNVAIBLES = "No Ids Availables";
+
+//Atribuir ID ao ponto
 
 int Ponto2D::getNextId() {
 
@@ -27,6 +31,8 @@ int Ponto2D::getNextId() {
     return rand_number;
 }
 
+//Distância entre dois pontos
+
 double Ponto2D::calc_dist_coordinates(const double &dx, const double &dy) {
 
     /*
@@ -45,19 +51,24 @@ inline Ponto2D::Ponto2D(const double &_x, const double &_y) : x(_x) , y(_y) , id
 //construtor de copia
 Ponto2D ::Ponto2D(const Ponto2D &_ponto) : x(_ponto.get_x()) , y(_ponto.get_y()) , id(this->getNextId()) {}
 
+//Funções get (x, y, id)
+
 inline double Ponto2D::get_x() const { return this->x;}
-
 inline double Ponto2D::get_y() const { return this->y; }
-
 int Ponto2D::get_id() const { return this->id; }
 
-inline  void Ponto2D::set_x(const double &_x) { this->x = _x ;}
+//Funções set (x, y)
 
+inline  void Ponto2D::set_x(const double &_x) { this->x = _x ;}
 inline void Ponto2D::set_y(const double &_y) { this->y = _y ; }
+
+//Função print cordenada
 
 void Ponto2D::print() const {
     std :: cout << "( " << this->get_x() << " , " << this->get_y() << " )" << std :: endl;
 }
+
+//Função "distToOrig" com parâmetro: distância entre dois pontos
 
 double Ponto2D::distToOrig(const Ponto2D &_p2) const {
 
@@ -67,7 +78,11 @@ double Ponto2D::distToOrig(const Ponto2D &_p2) const {
     return Ponto2D::calc_dist_coordinates(dx,dy);
 }
 
+//Função "distToOrig" sem parâmetro: distância ponto até a origem
+
 double Ponto2D::distToOrig() const { return Ponto2D::calc_dist_coordinates(this->get_x(),this->get_y());}
+
+//Soma entre dois pontos, atribuindo o resultado a um ponto da soma
 
 void Ponto2D::sumOf(const Ponto2D &_p2) {
     /*
@@ -79,12 +94,16 @@ void Ponto2D::sumOf(const Ponto2D &_p2) {
     this->set_y(new_y);
 }
 
+//Soma entre dois pontos, atribuindo o resultado a um terceiro novo ponto
+
 Ponto2D Ponto2D::sumToNewPoint(const Ponto2D &_p2) const {
     const double new_x = this->get_x() + _p2.get_x();
     const double new_y = this->get_y() + _p2.get_y();
 
     return (* new Ponto2D(new_x,new_y));
 }
+
+//Destrutor
 
 Ponto2D::~Ponto2D() {
 
@@ -94,6 +113,8 @@ Ponto2D::~Ponto2D() {
 
 }
 
+//Operador de subtração
+
 Ponto2D &Ponto2D::operator--() {
 
     this->x --;
@@ -101,6 +122,8 @@ Ponto2D &Ponto2D::operator--() {
 
     return (*this);
 }
+
+//Operador de soma
 
 Ponto2D Ponto2D::operator+(const Ponto2D & _ponto) const {
     return * new Ponto2D( this->get_x() + _ponto.get_x() , this->get_y() + _ponto.get_y() );
