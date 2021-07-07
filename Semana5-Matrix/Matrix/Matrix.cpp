@@ -171,13 +171,22 @@ void Matrix::memmoryAlloc() {
 
 }
 
+/*Modificações em relação a atividade anterior
+*se encontram desse ponto em diante, que são as implementações
+*dos operadores
+*/
+
 double &Matrix::operator()(int x, int y) const {
     return this->m[x][y];
 }
 
+//OPERADORES QUE O RESULTADO É UMA NOVA MATRIZ
+
+//Operador soma (+)
+
 Matrix& Matrix::operator+(const Matrix & _matrixAdd) const{
 
-    Matrix * matrix = new Matrix(this->getRows() , this->getCols());
+    Matrix *matrix = new Matrix(this->getRows() , this->getCols());
 
     for(int i =0; i < this->getRows() ; i++)
         for(int j= 0; j<this->getCols() ; j++)
@@ -185,6 +194,70 @@ Matrix& Matrix::operator+(const Matrix & _matrixAdd) const{
 
     return  *matrix;
 }
+
+//Operador subtração (-)
+
+Matrix &Matrix::operator-(const Matrix & _matrixMinus) const {
+    
+    Matrix *matrix = new Matrix(this->getRows() , this->getCols());
+
+    for(int i =0; i < this->getRows() ; i++)
+        for(int j= 0; j<this->getCols() ; j++)
+            matrix->m[i][j] = this->get(i,j) - _matrixMinus.get(i,j);
+
+    return  *matrix;
+}
+
+//Operador trasposta (~)
+
+Matrix& Matrix::operator~() const {
+
+    Matrix *matrix = new Matrix(this->getCols() , this->getRows());
+
+    for(int i =0; i < this->getRows(); i++)
+        for(int j= 0; j < this->getCols() ; j++)
+            matrix->m[j][i] = this->get(i,j) ;
+
+    return  *matrix;
+}
+
+//Operador multiplicação (*)
+
+Matrix &Matrix::operator*(const Matrix & _matrix) const {
+    
+    Matrix *matrix = new Matrix(this->getRows() , _matrix.getCols());
+    
+    for(int i =0; i < this->getRows() ; i++){
+        for(int j =0; j < _matrix.getCols() ; j++){
+            for(int z = 0 ;  z < _matrix.getRows() ; z++){
+                matrix->m[i][j] += this->get(j,z) * _matrix.get(z,j);
+            }
+        }
+    }
+    
+    return  *matrix;
+}
+
+//OPERADORES QUE O RESULTADO É ATRIBUÍDO A MATRIZ DO PARÂMETRO
+
+//Operador multiplicação (*=)
+
+void Matrix::operator*=(const Matrix & _matrix) {
+
+    Matrix *matrix = new Matrix(this->getRows() , _matrix.getCols());
+
+    for(int i =0; i < this->getRows() ; i++){
+        for(int j =0; j < _matrix.getCols() ; j++){
+            for(int z = 0 ;  z < _matrix.getRows() ; z++){
+                matrix->m[i][j] += this->get(j,z) * _matrix.get(z,j);
+            }
+        }
+    }
+
+    *this = *matrix;
+}
+
+//Operador subtração (-=)
 
 void Matrix::operator-=(const Matrix & _matrix) {
 
@@ -194,81 +267,27 @@ void Matrix::operator-=(const Matrix & _matrix) {
 
 }
 
-Matrix &Matrix::operator-(const Matrix & _matrixMinus) const {
-    Matrix * matrix = new Matrix(this->getRows() , this->getCols());
-
-    for(int i =0; i < this->getRows() ; i++)
-        for(int j= 0; j<this->getCols() ; j++)
-            matrix->m[i][j] = this->get(i,j) - _matrixMinus.get(i,j);
-
-    return  *matrix;
-}
+//Operador soma (-=)
 
 void Matrix::operator+=(const Matrix & _matrix) {
 
     for(int i =0; i < this->getRows() ; i++)
         for(int j= 0; j<this->getCols() ; j++)
             this->m[i][j]+= _matrix.get(i,j);
-
 }
 
-Matrix& Matrix::operator~() const {
-
-    Matrix * matrix = new Matrix(this->getCols() , this->getRows());
-
-    for(int i =0; i < this->getRows(); i++)
-        for(int j= 0; j < this->getCols() ; j++)
-            matrix->m[j][i] = this->get(i,j) ;
-
-    return  *matrix;
-}
+//Operador multiplicação por constnte (*=)
 
 void Matrix::operator*=(int escalar) {
 
     for(int i =0; i < this->getRows() ; i++)
         for(int j= 0; j<this->getCols() ; j++)
             this->m[i][j] *= escalar;
-
 }
 
-Matrix &Matrix::operator*(const Matrix & _matrix) const {
-    Matrix * matrix = new Matrix(this->getRows() , _matrix.getCols());
+//OPERADORES VERIFICAÇÃO IGUALDADE E DESIGUALDADE
 
-
-    for(int i =0; i < this->getRows() ; i++){
-
-        for(int j =0; j < _matrix.getCols() ; j++){
-
-            for(int z = 0 ;  z < _matrix.getRows() ; z++){
-                matrix->m[i][j] += this->get(j,z) * _matrix.get(z,j);
-            }
-
-        }
-
-    }
-
-    return  *matrix;
-}
-
-void Matrix::operator*=(const Matrix & _matrix) {
-
-    Matrix * matrix = new Matrix(this->getRows() , _matrix.getCols());
-
-
-    for(int i =0; i < this->getRows() ; i++){
-
-        for(int j =0; j < _matrix.getCols() ; j++){
-
-            for(int z = 0 ;  z < _matrix.getRows() ; z++){
-                matrix->m[i][j] += this->get(j,z) * _matrix.get(z,j);
-            }
-
-        }
-
-    }
-
-    *this = *matrix;
-}
+//Operador verificação de igualdade (==)
 
 bool Matrix::operator==(const Matrix & _matrix) const {
 
@@ -283,7 +302,10 @@ bool Matrix::operator==(const Matrix & _matrix) const {
     return true;
 }
 
+//Operador verificação de desigualdade (!=)
+
 bool Matrix::operator!=(const Matrix & _matrix) const {
+    
     if(this->getCols() != _matrix.getCols() || this->getRows() != _matrix.getRows())
         return true;
 
@@ -294,6 +316,10 @@ bool Matrix::operator!=(const Matrix & _matrix) const {
 
     return false;
 }
+
+//LEITURA E IMPRESSÃO
+
+//Impressão matriz
 
 std::istream &operator>>(std::istream & op, Matrix & _matrix) {
 
@@ -313,6 +339,8 @@ std::istream &operator>>(std::istream & op, Matrix & _matrix) {
     return op;
 }
 
+//Leitura matriz
+
 std::ostream &operator<<(std::ostream& op, const Matrix & _matrix) {
 
     for (int i = 0; i < _matrix.getRows(); i++) {
@@ -322,8 +350,6 @@ std::ostream &operator<<(std::ostream& op, const Matrix & _matrix) {
             op << _matrix.m[i][j] << " ";
         }
     }
-
-
     return op;
 }
 
