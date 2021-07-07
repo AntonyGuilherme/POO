@@ -22,9 +22,7 @@ public:
 
     // Construtores
     Matrix(int rows = 1, int cols = 1, const double &value = 0.0);
-
     Matrix(std::ifstream &myFile);
-
     Matrix(const Matrix &that);
 
     // destrutor
@@ -32,18 +30,14 @@ public:
 
     // basic getters
     inline int getRows() const;
-
     inline int getCols() const;
 
     double& get(int &row, int &col) const;
 
     // other methods
     void print() const;
-
     void unit();
-
     void zeros();
-
     void ones();
 
     double& operator() (int,int) const;
@@ -59,10 +53,6 @@ public:
     bool operator != (const Matrix&) const;
     friend std ::istream& operator>>(std::istream&,Matrix&);
     friend std ::ostream& operator<<(std::ostream&,const Matrix&);
-
-
-
-
 };
 
 
