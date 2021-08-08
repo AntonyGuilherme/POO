@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/word2/Documents/GitHub/POO/Semana6-List/Error/Error.h
+string
+C:/Users/word2/Documents/GitHub/POO/Semana6-List/Error/string
+
+C:/Users/word2/Documents/GitHub/POO/Semana6-List/ErrorEmptyList/ErrorEmptyList.h
+../Error/Error.h
+C:/Users/word2/Documents/GitHub/POO/Semana6-List/Error/Error.h
+
+C:/Users/word2/Documents/GitHub/POO/Semana6-List/ErrorNotDeleted/ErrorNotDeleted.h
+../Error/Error.h
+C:/Users/word2/Documents/GitHub/POO/Semana6-List/Error/Error.h
+
+C:/Users/word2/Documents/GitHub/POO/Semana6-List/List/List.h
+iostream
+-
+../ErrorEmptyList/ErrorEmptyList.h
+C:/Users/word2/Documents/GitHub/POO/Semana6-List/ErrorEmptyList/ErrorEmptyList.h
+../ErrorNotDeleted/ErrorNotDeleted.h
+C:/Users/word2/Documents/GitHub/POO/Semana6-List/ErrorNotDeleted/ErrorNotDeleted.h
+
+C:/Users/word2/Documents/GitHub/POO/Semana6-List/main.cpp
+iostream
+-
+cstdlib
+-
+List/List.h
+C:/Users/word2/Documents/GitHub/POO/Semana6-List/List/List.h
+
