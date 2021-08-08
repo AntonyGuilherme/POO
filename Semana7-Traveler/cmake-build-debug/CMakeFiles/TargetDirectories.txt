@@ -1,0 +1,3 @@
+C:/Users/word2/Documents/GitHub/POO/Semana7-Traveler/cmake-build-debug/CMakeFiles/Semana7_Traveler.dir
+C:/Users/word2/Documents/GitHub/POO/Semana7-Traveler/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/word2/Documents/GitHub/POO/Semana7-Traveler/cmake-build-debug/CMakeFiles/rebuild_cache.dir

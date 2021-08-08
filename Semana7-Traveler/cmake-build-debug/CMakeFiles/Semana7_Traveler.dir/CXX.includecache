@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/word2/Documents/GitHub/POO/Semana7-Traveler/BusinessTraveler/BusinessTraveller.h
+./../Traveler/Traveler.h
+C:/Users/word2/Documents/GitHub/POO/Semana7-Traveler/Traveler/Traveler.h
+./../Pager/Pager.h
+C:/Users/word2/Documents/GitHub/POO/Semana7-Traveler/Pager/Pager.h
+iostream
+-
+
+C:/Users/word2/Documents/GitHub/POO/Semana7-Traveler/Pager/Pager.h
+string
+-
+
+C:/Users/word2/Documents/GitHub/POO/Semana7-Traveler/Traveler/Traveler.h
+string
+-
+
+C:/Users/word2/Documents/GitHub/POO/Semana7-Traveler/main.cpp
+iostream
+-
+BusinessTraveler/BusinessTraveller.h
+C:/Users/word2/Documents/GitHub/POO/Semana7-Traveler/BusinessTraveler/BusinessTraveller.h
+
