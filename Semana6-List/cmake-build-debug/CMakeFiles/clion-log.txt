@@ -1,0 +1,1 @@
+CMakeLists.txt not found in C:\Users\word2\Documents\GitHub\POO\Semana6-List Select CMakeLists.txt
